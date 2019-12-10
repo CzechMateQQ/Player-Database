@@ -6,8 +6,11 @@ using std::endl;
 
 int main()
 {
+
 	cout << "Please enter number of players" << endl;
-	Player players[10];
+	cin >> const int playerCount;
+
+	Player* players = new Player[10];
 
 	while(true){}
 
